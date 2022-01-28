@@ -1,0 +1,86 @@
+#Tutorial 02 - Dart Functions
+
+1. Loop
+
+    1.1 For Loop
+
+        Example: 
+
+            void main() {
+            int i = 0;
+            for (i; i < 10; i++) {
+                print(i);
+            }
+            }
+
+        - List Data
+
+        Example:
+
+            void main() {
+            List listdata = ['rakib', 16, 'sylhet'];
+            for (int i = 0; i < listdata.length; i++) {
+                print(listdata[i]);
+                print('${listdata[i]} ${i}');
+            }
+            }
+
+        For Flutter: 
+
+            void main() {
+            List students = ['stu1', 'stu2', 'stu3', 'stu4'];
+            print(students.map((e) => e));
+
+            }
+
+    1.2 Function 
+
+    Note: ekta code bar bar use korar dorkar hole ekta function baniye rekhe diye rakhe.
+    Function er return type thake. IF any no return, it's void.
+
+    Example: 
+
+    (1)
+
+    String name(){
+        return 'rakib';
+    }
+
+    print(name());
+
+    (2)
+
+    dynamic add(){
+        int n1 = 3;
+        int n2 = 4;
+        return n1 + n2;
+    }
+
+    print(add());
+
+    (3)
+
+    void main() {
+       dynamic add(n1,n2){
+        return n1 + n2;
+    }
+    print(add(4,4));
+
+    (4)
+
+    void add(n1, n2){
+        print(n1 + n2);
+    }
+    add( 3, 6);
+    }
+
+    (5) 
+
+    int returnint (int a, int b){
+        return a+b;
+    }
+
+    print(returnint(3,10));
+
+
+    1.2

@@ -1,0 +1,37 @@
+#Tutorial 03 - Dart Basic - OOP for Flutter 
+
+Example: 
+
+String name = 'rakib';
+
+class FinalClass {
+  String name() {
+    return 'rakib';
+  }
+}
+
+void main() {
+  var fclass = new FinalClass();
+  print(fclass.name());
+}
+
+
+Inheritence: 
+
+class Car_1 {
+  String name() {
+    return 'Marcedies';
+  }
+
+  String model() {
+    return '2015';
+  }
+}
+
+class Hello extends Car_1 {}
+
+void main() {  
+  var fclass = new Hello();
+  var car = fclass.model();
+  print(car);
+}

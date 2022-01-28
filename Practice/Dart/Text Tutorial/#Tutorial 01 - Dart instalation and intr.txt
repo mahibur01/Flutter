@@ -1,0 +1,159 @@
+#Tutorial 01 - Dart instalation and introduction
+
+1. Recuirements
+
+    1.1 VS code
+    1.2 VS Code Extentions
+        - Dart 
+        - Code Runner
+
+2. Hello World Code
+
+    Example: 
+    void main(){
+    print("Hello World");
+    }
+
+Notes : 
+    1. void is function 
+    2. All codes run first from 'main'
+    3. print is for output 
+    4. every lines should be end by (;)
+
+3. Data Type
+
+    String: '', ""  
+    Integer (int): 01233 
+        Note: Without (.) all numbers are integer 
+    Double: All (.) used number is double 
+    Dynamic: Any type of data contains here 
+
+4. Variables
+
+    Example: 
+        var name = 'RAKIB';
+        print(name);
+
+    - Dynamic Variables
+
+    Example: 
+        void main(){
+        dynamic name;
+        name = "rakib";
+        name = 103121;
+        print(name);
+        }
+
+    - String Variables
+
+    Example:
+        void main(){
+        String name;
+        name = " Rakib "; 
+        print(name);
+        }
+
+    - Integer Variables
+
+    Example: 
+        void main(){
+        int year;
+        year = 2021; 
+        print(year);
+        }
+
+    - Double Variables
+
+    Example:
+        void main(){
+        double marks;
+        marks = 80.10; 
+        print(marks );
+        }
+
+    - list Data type
+
+    Example:    
+        void main(){
+        List marks;
+        marks = ['bangla',80, 5.00]; 
+        print(marks );
+        }
+
+    - Boolean Data type
+
+    Example: 
+        void main(){
+        bool t = true;
+        bool f = false;
+        print(t);
+        }
+
+    - Map Data type
+
+    Example:
+        void main(){
+
+            Map marks = {
+                "name": 'rakib',
+                "age": 25,
+                "subject" : ['bd', 'math', [english]],
+                'map2' : {'home': 'dhaka'}
+            }
+        print(marks);
+        }
+
+5. Operator  
+
+    print (2+1);
+    print (3-2);
+    print (10/2);
+    print (10%3);
+    print (2*4);
+    print (10>4);
+    print (10<4);
+    print (10 == 4);
+    int number = 1;
+    number ++;
+    number --;
+    print(num1 >= num12);
+    print(num1 <= num12);
+
+6. Condition
+
+    - If/Else Condition
+    
+    Example:
+        if (num1 > num2){
+            print("true");
+        }
+        else("false");
+
+    - Not Condition
+
+    Example: 
+        num1 = 50;
+        num2 = 60;
+
+        if (num1 == num2)
+        if ((num1 != num2) && (num1 > num2))  
+        if ((num1 != num2) || (num1 > num2))  
+        {
+            print("true");
+        }else{
+            print("false");
+        }
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
